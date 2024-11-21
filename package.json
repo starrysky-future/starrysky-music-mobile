@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build:theme": "node src/theme/themes/createThemes.js"
   },
   "dependencies": {
     "@react-navigation/elements": "^2.0.2",

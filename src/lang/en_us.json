@@ -1,0 +1,7 @@
+{
+    "collect-screen":"collect",
+    "leader-board-screen": "leaderBoard",
+    "search-screen": "search",
+    "setting-screen": "setting",
+    "song-list-screen":"songList"
+}
