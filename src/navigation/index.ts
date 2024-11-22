@@ -9,6 +9,9 @@ import SongListScreen from "@/screens/songList";
 
 export const RootStack = createNativeStackNavigator({
   initialRouteName: "SongList",
+  screenOptions: {
+    headerShown: false,
+  },
   screens: {
     Collect: CollectScreen,
     LeaderBoard: LeaderBoardScreen,
