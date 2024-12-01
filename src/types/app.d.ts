@@ -1,6 +1,7 @@
 import type { StaticParamList } from "@react-navigation/native";
 import { RootStack } from "@/navigation";
 import { I18n } from "@/lang";
+import { StateEventTypes } from "@/event/stateEvent";
 
 type RootStackParamList = StaticParamList<typeof RootStack>;
 
@@ -10,4 +11,5 @@ declare global {
   }
 
   var i18n: I18n;
+  var state_event: StateEventTypes;
 }

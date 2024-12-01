@@ -1,7 +1,7 @@
 {
-    "collect-screen":"collect",
-    "leader-board-screen": "leaderBoard",
-    "search-screen": "search",
-    "setting-screen": "setting",
-    "song-list-screen":"songList"
+    "nav_collect":"collect",
+    "nav_leaderBoard": "leaderBoard",
+    "nav_search": "search",
+    "nav_setting": "setting",
+    "nav_songlist":"songList"
 }

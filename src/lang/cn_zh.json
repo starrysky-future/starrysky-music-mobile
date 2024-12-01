@@ -1,7 +1,7 @@
 {
-    "collect-screen":"收藏",
-    "leader-board-screen": "排行榜",
-    "search-screen": "搜索",
-    "setting-screen": "设置",
-    "song-list-screen":"歌单"
+    "nav_collect":"收藏",
+    "nav_leaderBoard": "排行榜",
+    "nav_search": "搜索",
+    "nav_setting": "设置",
+    "nav_songlist":"歌单"
 }

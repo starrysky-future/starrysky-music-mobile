@@ -1,23 +1,19 @@
 import { createStaticNavigation } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import CollectScreen from "@/screens/collect";
-import LeaderBoardScreen from "@/screens/leaderBoard";
-import SearchScreen from "@/screens/search";
-import SettingScreen from "@/screens/setting";
-import SongListScreen from "@/screens/songList";
+import HomeScreen from "@/screens/Home";
+import PlayDetailScreen from "@/screens/PlayDetail";
+import SonglistDetailScreen from "@/screens/SonglistDetail";
 
 export const RootStack = createNativeStackNavigator({
-  initialRouteName: "SongList",
+  initialRouteName: "Home",
   screenOptions: {
     headerShown: false,
   },
   screens: {
-    Collect: CollectScreen,
-    LeaderBoard: LeaderBoardScreen,
-    Search: SearchScreen,
-    Setting: SettingScreen,
-    SongList: SongListScreen,
+    Home: HomeScreen,
+    PlayDetail: PlayDetailScreen,
+    SonglistDetail: SonglistDetailScreen,
   },
 });
 
